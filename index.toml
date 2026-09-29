@@ -6,11 +6,111 @@ hash = "73e9043cce5c526faf3e09e56ea5ce26b1811900d54a5e9f41a0e3ce208287f2"
 
 [[files]]
 file = "README.md"
-hash = "e68b13fe119c839f38434e305b953dbb9b248a885b87cdf1ad6897566e5eca97"
+hash = "0f82946ffd12ab738a5a4e7e3096a9f9f56f48b1faabdb0b81f63b292ce1bbbc"
 
 [[files]]
 file = "config/fabrictailor.json"
 hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "8fb2c66d33bbc738cd91ea8a6a37e5001811308ca55326fd116ff28c0a99a5f0"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "116a307502fef0e8f79734569c2a7add25286b3e815c935564cfbc68a622d3e5"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "34b9289dc3fb23d03167facb2e53a1d0c92f04122f8e70f2f78cfe471ef36569"
+
+[[files]]
+file = "config/fancymenu/customization/universal_layout.txt"
+hash = "fae98d798dbb10981137949e7ea4136263e9f8168b9a1ba35363b80af3014d6f"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "53d25fe7c9fa2181e3956fe59f99f694bb859fd9b3438a8ae9188b30a69ee1af"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_0.png"
+hash = "93e74cdedd9dfec8e91e2d4d153e9285ab470961539489a97714897d9e8f0641"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_1.png"
+hash = "a38166be6605dfe7557374bc63a07d3de80817413b5545f621b84f0494b4731a"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_2.png"
+hash = "37e3786b9352ea6649d5ea54c7a2e3ffe2123132c5ef8c571356c5bc8e995d90"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_3.png"
+hash = "a6bb67b30e6ffca498c8dcf6be0e69a3d4f351e306c8fa8e7000f452f72d1441"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_4.png"
+hash = "98ac621612f09ccbff73e3c9f63dacf9a1837a0c19c441df6d2beb6266eccacb"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/panorama/panorama_5.png"
+hash = "eb2dd17d401ccf8e587ab6efde8ea459d4bcd3d0d56a37054dd0a4713c843f3c"
+
+[[files]]
+file = "config/fancymenu/panoramas/creatine/properties.txt"
+hash = "4e48e6020c89c68eea51f90605e739333332ecf0ac3c9865e119e6f9af2713bf"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -861,3 +961,7 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
+
+[[files]]
+file = "version.txt"
+hash = "2950e69bb9ad83d5d9ea98cb74bb30462e26fe898d14a0b469db8206503e67a7"
