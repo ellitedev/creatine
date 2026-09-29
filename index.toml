@@ -758,6 +758,16 @@ hash = "699e838bcacba09d947990fee62b6e3a1c7b8ffb04ec1817d9014511e21a604f"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "68ef590d29c127c6b38d81662edfa45a2e1339d38f60aee345e31164c7c10017"
+metafile = true
+
+[[files]]
 file = "mods/switchy.pw.toml"
 hash = "c9e89c2a117b070d48c93db27959481aff7f74be0988ac9795214ab79e948625"
 metafile = true
