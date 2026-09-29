@@ -4,6 +4,9 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
+# Packwiz stuff that doesn't need to constantly be updated by tools
+.packwizignore
+
 # Exclude packitup stuff
 /Logs
 packitup.json
@@ -15,4 +18,3 @@ packitup.schema.json
 
 # stupid AI stuff
 /.kilo
-.packwizignore
