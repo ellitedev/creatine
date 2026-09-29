@@ -1,9 +1,20 @@
-Logs
+# Exclude exported CurseForge zip files
 *.zip
+
+# Exclude exported Modrinth modpacks
 *.mrpack
+
+# Exclude packitup stuff
+Logs
 packitup.json
 packitup.schema.json
+PackItUp
+
+# .env
 .env
+
+# stupid AI stuff
+.kilo
 testserver.sh
 
-PackItUp
+.git
