@@ -1,0 +1,13 @@
+name = "Styled Player List [Unofficial NeoForge]"
+filename = "styledplayerlist-3.5.1-1.21-neo.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "38f373e77b3611278b4ff43dd45cefef931c4d0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5795477
+project-id = 1117999

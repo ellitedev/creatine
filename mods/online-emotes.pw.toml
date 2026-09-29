@@ -1,0 +1,13 @@
+name = "Online Emotes"
+filename = "online-emotes-3.3.1+mc1.21.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dc4g4seU/versions/bMa9R0SG/online-emotes-3.3.1%2Bmc1.21.1-forge.jar"
+hash-format = "sha512"
+hash = "b33ea89ad3476bb8cba66de656775a81bacfcca06e7b639e4a91abd3503f3aab4ba4b6ea1fe6aebc358fde826128925316599aa0a00f909a5c5a817e6ac4b87a"
+
+[update]
+[update.modrinth]
+mod-id = "Dc4g4seU"
+version = "bMa9R0SG"

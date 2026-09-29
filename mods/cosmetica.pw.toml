@@ -1,0 +1,13 @@
+name = "Cosmetica"
+filename = "cosmetica-neoforge-2.0.1-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/s9hF9QGp/versions/J4uskYvj/cosmetica-neoforge-2.0.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "81f0a2e0c0bef1f3c64939def14850af4132b752e03014b4599f93ee2cfd1678dfdc570dba5cb7679a37773e04e92ac11cce5b392d47d406d107ebb3ad47e3e6"
+
+[update]
+[update.modrinth]
+mod-id = "s9hF9QGp"
+version = "J4uskYvj"

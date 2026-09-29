@@ -1,0 +1,8 @@
+Logs
+*.zip
+*.mrpack
+packitup.json
+packitup.schema.json
+.env
+
+PackItUp

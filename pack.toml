@@ -1,0 +1,17 @@
+name = "Creatine"
+author = "alpinesystem"
+version = "1.2.4"
+description = "An extensive Create modpack that aims to include almost every extension that works together. Also includes other stuff my friends wanted."
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b613eb46c21c3e78f6da521652c3c39e2b62ff4dbaadb513426cf2424b4ee0fb"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.252"
+
+[options]
+acceptable-game-versions = []

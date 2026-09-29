@@ -1,0 +1,13 @@
+name = "Emotecraft: Borrow Their Emote (EBTE)"
+filename = "emotecraft-borrow-their-emote-1.0.1+1.21.1+neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KM1YbXvb/versions/uP1IVrPC/emotecraft-borrow-their-emote-1.0.1%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "d557c8d2c8c330ed80523e681493986f8e167739915bb874792a5f2cb54296f9248ccd296cedc7cf4d50b9b8873ee77030dbab879806fc19107289c811596a54"
+
+[update]
+[update.modrinth]
+mod-id = "KM1YbXvb"
+version = "uP1IVrPC"
