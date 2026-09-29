@@ -15,3 +15,4 @@ packitup.schema.json
 
 # stupid AI stuff
 /.kilo
+.packwizignore
