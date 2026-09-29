@@ -288,6 +288,11 @@ hash = "2e0e167422dc70f6d92da6669020e1cfd4417e47118ea66bd8f566a3295c8040"
 metafile = true
 
 [[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -655,11 +660,6 @@ metafile = true
 [[files]]
 file = "mods/sablecompat.pw.toml"
 hash = "b9ceb0fa4707ced2e0467f334ce8b6cb2fd60c729b47aee065e2bb0d5b905189"
-metafile = true
-
-[[files]]
-file = "mods/saturn.pw.toml"
-hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
 metafile = true
 
 [[files]]
