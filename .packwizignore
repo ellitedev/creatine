@@ -4,5 +4,6 @@ Logs
 packitup.json
 packitup.schema.json
 .env
+testserver.sh
 
 PackItUp
