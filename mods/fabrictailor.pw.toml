@@ -1,15 +1,15 @@
 name = "FabricTailor"
-filename = "fabrictailor-2.10.0.jar"
+filename = "fabrictailor-2.5.0.jar"
 side = "both"
+pin = true
+
+[update.github]
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+tag = "2.5.0+1.21"
+branch = "master"
+slug = "samolego/FabricTailor"
 
 [download]
-url = "https://github.com/samolego/FabricTailor/releases/download/2.10.0%2B26.2/fabrictailor-2.10.0.jar"
+url = "https://github.com/samolego/FabricTailor/releases/download/2.5.0%2B1.21/fabrictailor-2.5.0.jar"
 hash-format = "sha256"
-hash = "5950d98c8c6975988c63e85f2c4defd238271d949b00a79e0fb5ae14e8c3e68f"
-
-[update]
-[update.github]
-branch = "master"
-regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "samolego/FabricTailor"
-tag = "2.10.0+26.2"
+hash = "e28e3ced145224078c22337828bd62bebbb867758232b5e6bb9221d90a971d6f"
