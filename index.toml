@@ -190,6 +190,16 @@ hash = "395d4093dc758f43f50adc813d92dfcd1936dc83f31c048af255d97ba588746f"
 metafile = true
 
 [[files]]
+file = "mods/advanced-core-info.pw.toml"
+hash = "d69ad455973b5951fcf11cba11d10129d4f34e689dda85698b4c10c2e1e7a711"
+metafile = true
+
+[[files]]
+file = "mods/advanced-loot-info.pw.toml"
+hash = "5df6f7e08f211e849a3653cd3e69b65cb48d81b8052f4a3a682bdb8d04e42e5f"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "035d27b4ea4da57db6cb1b2999c5ee2017737310811f86fb29f80526718b05fc"
 metafile = true
@@ -207,6 +217,11 @@ metafile = true
 [[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
@@ -657,6 +672,11 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "f565820169e3cd71f18fd0b18eab2405bc400668813d04f3f3eb75b6c8924bcc"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "5273f6de8d7a65855382ea9daf466e1db957532bef576a9c768c5ff7df1dfe53"
 metafile = true
 
 [[files]]
