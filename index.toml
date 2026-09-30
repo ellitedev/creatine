@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
-hash = "9f65f9975e3e0a5e4627975378ca28f6d611df9d7199e1ecec368880a7292412"
+hash = "035d27b4ea4da57db6cb1b2999c5ee2017737310811f86fb29f80526718b05fc"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "ddb95051d2604f19190ec63a862fd68f7076204c9f6fbd2b42259859003e1999"
+hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/cerulean-advancements.pw.toml"
-hash = "06ed63db0c8437460cb4a70cb73b7bf266863c39b918c9f0c9aadb3b16102e81"
+hash = "84ad276edbae5b2419d5dc8a71a204062685904b881f724cbc2097bc9531c9f8"
 metafile = true
 
 [[files]]
@@ -707,7 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "66c7dcecaaf6cd09105a28964ce7d20ea4f471d89bff00441dc1c8f7f3655063"
+hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
 metafile = true
 
 [[files]]
