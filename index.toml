@@ -501,18 +501,8 @@ hash = "fe88386ca7a7c34be094f10e3a012810cec23f21b580dbc1c908cf95a17bf6f8"
 metafile = true
 
 [[files]]
-file = "mods/drippy-early-loading-module.pw.toml"
-hash = "5fea3c19a3984ad752fd965510c4f8847c5100d001c31cbe46373628de729e06"
-metafile = true
-
-[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "d89b50af502aab4416e07fa8f92433a18fac11285fe1c39ebccea610dbfdd1e7"
-metafile = true
-
-[[files]]
-file = "mods/drippy-macos-early-loading-patch.pw.toml"
-hash = "aefae7d7194661a27506560c31ccb2e071d92b20aac3ab92fb7bf19efa735251"
 metafile = true
 
 [[files]]
