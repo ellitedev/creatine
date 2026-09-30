@@ -36,6 +36,6 @@ testPerformance = false
 	#Messages logged by loggers with the specified names will be filtered out and not logged.
 	loggers = []
 	#Messages containing the specified substrings will be filtered out and not logged.
-	strings = ["сессия ещё не готова"]
+	strings = ["сессия ещё не готова", "Missing sound for event","Exception loading blockstate definition"]
 	#Messages that match the specified regexes will be filtered out and not logged.
 	regexes = []

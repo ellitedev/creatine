@@ -14,7 +14,7 @@ hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
 file = "config/asynclogger.toml"
-hash = "238777d52c39a009cda944d0e0eeaa5575204948ef1b4e10839f3e2711b1fb5a"
+hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
 [[files]]
 file = "config/fabrictailor.json"
