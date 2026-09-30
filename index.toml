@@ -240,6 +240,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/bettertabinfo.pw.toml"
+hash = "23e957d1bba4cd90779a0f492f232bd9a65d401981cc797b31c9de7ec9cb1b92"
+metafile = true
+
+[[files]]
 file = "mods/blocks-bogies.pw.toml"
 hash = "07f30551060d5eb77a36ad9eb26131751d790d8e43378faf4143c6f53f0da245"
 metafile = true
@@ -327,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/cosmonautics-deep-air.pw.toml"
 hash = "ee0fdf638745dfff92320b76eceef0ada67b2ac1a270dcbb70bc1b309a999d5c"
+metafile = true
+
+[[files]]
+file = "mods/craft-config.pw.toml"
+hash = "9849c97a0d287156f7ac78ef8b8cfdac1e8eb4638a0b391be205418b49b0aed2"
 metafile = true
 
 [[files]]
@@ -942,11 +952,6 @@ metafile = true
 [[files]]
 file = "mods/styled-nicknames-unofficial-neoforge.pw.toml"
 hash = "a05fab22efac8380044afb11b3cec5f9162a41331dcf321c52c5f136aeeb2f14"
-metafile = true
-
-[[files]]
-file = "mods/styled-player-list-unofficial-neoforge.pw.toml"
-hash = "699e838bcacba09d947990fee62b6e3a1c7b8ffb04ec1817d9014511e21a604f"
 metafile = true
 
 [[files]]
