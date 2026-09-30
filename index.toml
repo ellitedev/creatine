@@ -13,6 +13,10 @@ file = "assets/blockbench-wordlogo/wordlogo.png"
 hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
+file = "config/asynclogger.toml"
+hash = "238777d52c39a009cda944d0e0eeaa5575204948ef1b4e10839f3e2711b1fb5a"
+
+[[files]]
 file = "config/fabrictailor.json"
 hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
 
