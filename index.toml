@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
-hash = "035d27b4ea4da57db6cb1b2999c5ee2017737310811f86fb29f80526718b05fc"
+hash = "9f65f9975e3e0a5e4627975378ca28f6d611df9d7199e1ecec368880a7292412"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
+hash = "ddb95051d2604f19190ec63a862fd68f7076204c9f6fbd2b42259859003e1999"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/cerulean-advancements.pw.toml"
-hash = "84ad276edbae5b2419d5dc8a71a204062685904b881f724cbc2097bc9531c9f8"
+hash = "06ed63db0c8437460cb4a70cb73b7bf266863c39b918c9f0c9aadb3b16102e81"
 metafile = true
 
 [[files]]
@@ -288,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/contraption-lights.pw.toml"
 hash = "824853d939d36a085c8c6f58b66565771c8e8ad891d624675521f9abcc03a117"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
@@ -641,6 +646,11 @@ hash = "fb3233553d7a88373fcd54e6fbeac1f593fdfbe44f00e0c24790a01774545e2f"
 metafile = true
 
 [[files]]
+file = "mods/just-universal-keybinds.pw.toml"
+hash = "04a0dbfe3482acab4680091469339b80fd2775d7ddaccc3f01b0b9ad32563f0e"
+metafile = true
+
+[[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "f565820169e3cd71f18fd0b18eab2405bc400668813d04f3f3eb75b6c8924bcc"
 metafile = true
@@ -697,7 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
+hash = "66c7dcecaaf6cd09105a28964ce7d20ea4f471d89bff00441dc1c8f7f3655063"
 metafile = true
 
 [[files]]
@@ -853,6 +863,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-viewer.pw.toml"
 hash = "7218a06fa27c0bfaa0e6f7db00842b1de5d45aa2a3573bc76cb11930a075d76b"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
