@@ -90,7 +90,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "597da8b2964dfa18784e8ffbca8b3eaf1b74a2fb3cec765944dae85935a8e041"
+hash = "7303eef598963dcfa159b711f9f27edb3fc8f5dc8f0da78d1a9bc55b97af6e31"
 
 [[files]]
 file = "config/fancymenu/panoramas/creatine/panorama/panorama_0.png"
@@ -1012,4 +1012,4 @@ metafile = true
 
 [[files]]
 file = "version.txt"
-hash = "8c2c27fcb1494729d021e6b2ebfb4581b1787a3d3270a6a162899d839c56d153"
+hash = "ae72b7cffd53db60fafbca369de19bde87d7f8301b6a51f2accacfd79e33dad6"
