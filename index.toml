@@ -21,6 +21,14 @@ file = "config/fancymenu/assets/background.png"
 hash = "9ea93f24ce8d25c8096b56c2c07abd805734d1ff060d7c795a95056ac687b5eb"
 
 [[files]]
+file = "config/fancymenu/assets/blockbench-wordlogo/creatine-model.bbmodel"
+hash = "aa6fa3939cbc2a153964bd2f87f5b8a3938b0b7a45dfe41b8fb40f799a3f8f68"
+
+[[files]]
+file = "config/fancymenu/assets/blockbench-wordlogo/creatine-texture.png"
+hash = "87eccb98176c99176cc9bf5ff98e767360b5fe77e8e425b89508e7517e3bb769"
+
+[[files]]
 file = "config/fancymenu/assets/blockbench-wordlogo/creatine.png"
 hash = "87eccb98176c99176cc9bf5ff98e767360b5fe77e8e425b89508e7517e3bb769"
 
@@ -33,20 +41,24 @@ file = "config/fancymenu/assets/blockbench-wordlogo/wordlogo.png"
 hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
-file = "config/fancymenu/assets/icon.icns"
-hash = "c9e89aea571fdc573ea3c610ece97beb5b0ca23d5482bb376008362eb993e6b0"
+file = "config/fancymenu/assets/window-icons/1024x.icns"
+hash = "49a05fc9d721c9cacfb365634b3fae62e0e65b8d4c8bd00e698f4d3bd45ccd5d"
 
 [[files]]
-file = "config/fancymenu/assets/icon16.png"
-hash = "3bf2daf36cff4611e414f3c79b190675cb1e070af65aeefac640701638c19c77"
+file = "config/fancymenu/assets/window-icons/1024x.png"
+hash = "1404fb6ba02914025858276f3e58a28f584527032dd5e712f51e1494b11dfa79"
 
 [[files]]
-file = "config/fancymenu/assets/icon32.png"
-hash = "35d6f072d36168900b4adc8576c63d243b3640845cfb269d222d96d5b512a280"
+file = "config/fancymenu/assets/window-icons/16x.png"
+hash = "ffcd7dc74c2dcde6020013e491436ff966446e0f3e12e7a27b03f2755152e451"
 
 [[files]]
-file = "config/fancymenu/assets/icon64.png"
-hash = "3f21108fa14eb2c7e0aed9c1093e4deb4cd9c93e02fcdcf39aef37c0da248bb3"
+file = "config/fancymenu/assets/window-icons/32x.png"
+hash = "99fc41a906c51d1fc66546995a602345d006df290604c773f0987ea56d32fea5"
+
+[[files]]
+file = "config/fancymenu/assets/window-icons/64x.png"
+hash = "770e17d6d7e95d9a73b16aff53d091448cf02a8c306485664997f9a4ddbdc5ad"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -62,7 +74,7 @@ hash = "4ba485eede459617d2b1da721909579317d0b29b936c49faa03be2c3a5c542f7"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c37d37864bf2591fe5f2e809d9ee55cf124cdb0102f2b43f55737a48f7a08109"
+hash = "69a33192561083aff91adec82003f4296aabf5b548b20bf37bf4c124900f9d0c"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -78,7 +90,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "beadafb46eb9d49892cc162f882d7ab182e1e0befd7e19308194a3cc8e18b58d"
+hash = "597da8b2964dfa18784e8ffbca8b3eaf1b74a2fb3cec765944dae85935a8e041"
 
 [[files]]
 file = "config/fancymenu/panoramas/creatine/panorama/panorama_0.png"
@@ -1000,4 +1012,4 @@ metafile = true
 
 [[files]]
 file = "version.txt"
-hash = "584d5b59ef8ff9736782f30030eee65034e3ed19752312419b4816f1605a02ac"
+hash = "8c2c27fcb1494729d021e6b2ebfb4581b1787a3d3270a6a162899d839c56d153"
