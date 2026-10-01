@@ -17,10 +17,6 @@ file = "assets/blockbench-wordlogo/wordlogo.png"
 hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
-file = "cliff.toml"
-hash = "972b8128793ba43191b49b37205ae7b65bd4f5356061e112c823fc7bd6b0b93a"
-
-[[files]]
 file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
