@@ -13,6 +13,10 @@ file = "assets/blockbench-wordlogo/wordlogo.png"
 hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
+file = "cliff.toml"
+hash = "4ff42d47555b589064193502a26e874535cf759fd9274d73fc266879141f50d4"
+
+[[files]]
 file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
@@ -247,6 +251,11 @@ metafile = true
 [[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "ad964c7bc216dc509aba7cc617456a340e7746565e79d0cd4fab8a4d31ec95ed"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
@@ -497,6 +506,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
