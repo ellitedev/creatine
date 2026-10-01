@@ -25,6 +25,10 @@ file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
 [[files]]
+file = "config/create_submarine-common.toml"
+hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "36cc9164ba8115d391958625b4c922318ef1f9aa3fa793a0289d55c7ac9ced1a"
 
