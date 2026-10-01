@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".markdownlint.json"
+hash = "b0e1b548d9c4b8448446b89d066384c6bbd525ee76dc518b9b345e6f96fadd1a"
+
+[[files]]
 file = "LICENSE"
 hash = "73e9043cce5c526faf3e09e56ea5ce26b1811900d54a5e9f41a0e3ce208287f2"
 
@@ -14,7 +18,7 @@ hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
 
 [[files]]
 file = "cliff.toml"
-hash = "4ff42d47555b589064193502a26e874535cf759fd9274d73fc266879141f50d4"
+hash = "972b8128793ba43191b49b37205ae7b65bd4f5356061e112c823fc7bd6b0b93a"
 
 [[files]]
 file = "config/asynclogger.toml"
@@ -671,11 +675,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "fb3233553d7a88373fcd54e6fbeac1f593fdfbe44f00e0c24790a01774545e2f"
-metafile = true
-
-[[files]]
-file = "mods/just-universal-keybinds.pw.toml"
-hash = "04a0dbfe3482acab4680091469339b80fd2775d7ddaccc3f01b0b9ad32563f0e"
 metafile = true
 
 [[files]]
