@@ -1117,5 +1117,9 @@ hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
+file = "release.sh"
+hash = "2f808679ed11a0a11c18a2d5c92a5d900e1a1c0a0b0dafd63d33e6e365fe32bf"
+
+[[files]]
 file = "version.txt"
-hash = "5de22c49faec666e337d3d3ca9b331565c1ea5861dd974fca3d7692f624a06f3"
+hash = "1b745837b04f53ead22fe24943cd5658f2b38f001273a80d9c5d1d8b6a4cd86a"
