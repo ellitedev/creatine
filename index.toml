@@ -86,7 +86,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "91ebec91b5bc7eba46903f87b8f57fbd7c0b71329689d082390c0ebe15dda3fb"
+hash = "81bc25c74aaae25f2dab3ad066e33721cbc01b116caf18cb5f545358a05ee807"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -98,7 +98,7 @@ hash = "69a33192561083aff91adec82003f4296aabf5b548b20bf37bf4c124900f9d0c"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
-hash = "fae98d798dbb10981137949e7ea4136263e9f8168b9a1ba35363b80af3014d6f"
+hash = "2c3be26c37e7aa3d3bae3fc43dbc8cb3f9fc52a282950b24a19b8cd7051065a7"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
