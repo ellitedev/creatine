@@ -532,6 +532,11 @@ hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
 
 [[files]]
+file = "mods/create-track-map-(unofficial-fork).pw.toml"
+hash = "983ca492e57dad0d62577dbf3a81c20c83c672bfedbda530156335e3b3fdb864"
+metafile = true
+
+[[files]]
 file = "mods/create-train-parts.pw.toml"
 hash = "09cb6e7676473c7394811162cb35684b11db4b1eb6d680fd7d9956c668f24864"
 metafile = true
