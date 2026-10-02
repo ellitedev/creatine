@@ -1,0 +1,13 @@
+name = "MineMath"
+filename = "MineMath-neoforge-1.21.1-3.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YAbaLUgy/versions/zpcBkNC3/MineMath-neoforge-1.21.1-3.0.0.jar"
+hash-format = "sha512"
+hash = "1aec3cebb3fe429d039b514b04c612b5c184381e04f5c45e56d7d979499297d630800de537555bbabebed6ffed81df6af3d4d9c20440e128af194d6950aa6547"
+
+[update]
+[update.modrinth]
+mod-id = "YAbaLUgy"
+version = "zpcBkNC3"
