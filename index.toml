@@ -21,6 +21,10 @@ file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
+
+[[files]]
 file = "config/create_submarine-common.toml"
 hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
 
