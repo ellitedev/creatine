@@ -1102,6 +1102,11 @@ hash = "823062205aac8ab02b8d31f8a1d3d4662525816838accb9a735380ac0aa74cae"
 metafile = true
 
 [[files]]
+file = "mods/xaero-train-map.pw.toml"
+hash = "055508f48abfc3dc9705337d324fe839bbc88cd5cd06ce77f65b4bd2c976a983"
+metafile = true
+
+[[files]]
 file = "mods/xaeroplus.pw.toml"
 hash = "5a4b859a8b117df8ac1e92addacf34c565644b02ca359c5caa38ef7aa9aa5504"
 metafile = true
