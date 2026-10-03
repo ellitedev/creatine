@@ -34,8 +34,8 @@ jobs:
                 },
                 title: "Release \($tag) · \($repo)",
                 url: $url,
-                description: ((if ($body | length) > 0 then ($body | .[0:3500]) + "\n\n" else "" end)
-                  + "## [Download `.mrpack` update](https://github.com/\($repo)/releases/download/\($tag)/Creatine.\($tag).mrpack)"),
+                description: ((if ($body | length) > 0 then ($body | .[0:3500]) + "\n" else "" end)
+                  + "## [Download `Creatine.\($tag).mrpack`](https://github.com/\($repo)/releases/download/\($tag)/Creatine.\($tag).mrpack)"),
                 color: 14243683
               }]
             }' \
