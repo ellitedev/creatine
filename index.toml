@@ -37,8 +37,16 @@ file = "config/create-server.toml"
 hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
 
 [[files]]
+file = "config/create_submarine-client.toml"
+hash = "651fc0b7c19e2793661124f9e690f1c8561d80b320a1828a9a5982c7cf7a362c"
+
+[[files]]
 file = "config/create_submarine-common.toml"
 hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
+
+[[files]]
+file = "config/create_submarine_client_state.json"
+hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
