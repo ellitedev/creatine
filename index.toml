@@ -209,6 +209,14 @@ file = "config/moreculling.toml"
 hash = "f88f0eb1ea54903eb6355031ec19afb21fe1c7715ff29616a76ed9ddaf089c95"
 
 [[files]]
+file = "config/styled-chat.json"
+hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
+
+[[files]]
+file = "config/styled-nicknames.json"
+hash = "2763ebb278ef1f1ab535fcd0c0887bfb5915557ecac72a333674b9caaeaadf16"
+
+[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
