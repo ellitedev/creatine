@@ -12,20 +12,29 @@ jobs:
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           ROLE_ID: ${{ secrets.DISCORD_ROLE_ID }}
+          REPO: ${{ github.repository }}
           TAG: ${{ github.event.release.tag_name }}
           BODY: ${{ github.event.release.body }}
           URL: ${{ github.event.release.html_url }}
         run: |
           jq -n \
             --arg role "$ROLE_ID" \
+            --arg repo "$REPO" \
             --arg tag "$TAG" \
             --arg body "$BODY" \
             --arg url "$URL" \
             '{
               content: "# [Creatine \($tag)](<\($url)>)\n<@&\($role)> a new version of Creatine has been released!",
               allowed_mentions: {roles: [$role]},
-              embeds: (if ($body | length) > 0
-                then [{description: ($body | .[0:3500]), color: 8240102}]
-                else [] end)
+              embeds: [{
+                author: {
+                  name: "GitHub",
+                  url: "https://github.com",
+                  icon_url: "https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+                },
+                title: "Release \($tag) · \($repo)",
+                url: $url,
+                color: 14243683
+              } + (if ($body | length) > 0 then {description: ($body | .[0:3500])} else {} end)]
             }' \
           | curl -fsS -H "Content-Type: application/json" -d @- "$WEBHOOK"
