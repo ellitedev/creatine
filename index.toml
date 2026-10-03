@@ -209,6 +209,10 @@ file = "config/moreculling.toml"
 hash = "f88f0eb1ea54903eb6355031ec19afb21fe1c7715ff29616a76ed9ddaf089c95"
 
 [[files]]
+file = "config/simpleclouds-client.toml"
+hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
+
+[[files]]
 file = "config/styled-chat.json"
 hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
 
@@ -988,6 +992,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/simple-clouds.pw.toml"
+hash = "e312f9b01407aadff6d7a3b52d68e9d38f048e376cc6ceeb4789eaa6b1ad94cb"
 metafile = true
 
 [[files]]
