@@ -520,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "404db1758af44123b89cbf6e2ffdf4a5cf11b708be665f48657ff40735723152"
+hash = "d13664474b8a9e6f2c540f6581f99cd887631707b663daa4c0eb203c02d9e509"
 metafile = true
 
 [[files]]
@@ -590,7 +590,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "bcbcb4d32d5b2b6bcb4a578639a8830396eb87febe0ff3364a99ca6aee9a5bb7"
+hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
@@ -780,7 +780,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fb3233553d7a88373fcd54e6fbeac1f593fdfbe44f00e0c24790a01774545e2f"
+hash = "c911d03476ac0e535c3c601ad98a725ce685e063032474abbf2a2fb9bf23f786"
 metafile = true
 
 [[files]]
@@ -790,7 +790,7 @@ metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "5273f6de8d7a65855382ea9daf466e1db957532bef576a9c768c5ff7df1dfe53"
+hash = "c2e592ffd5962323e86b553b07fe0512a3429b37354ca4766c3b08bc88002701"
 metafile = true
 
 [[files]]
@@ -870,7 +870,7 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "1a0a919e4815e3869846483c937ecb395d0700fa10a1d1feae790508853773d8"
+hash = "cf5d87f046590b99d92096a79f6ea2f456290ba5d423c256f06674d2d10a1592"
 metafile = true
 
 [[files]]
@@ -965,7 +965,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "391e5d415c0754ad210b8efa54fc9ded4f99e6ab8562d6faf960f3b65d84a66a"
+hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
 metafile = true
 
 [[files]]
@@ -990,7 +990,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
+hash = "fadb5c9cfe145e51992894fe57209fc8f1696ef892ee9702a24c6205f042e9b2"
 metafile = true
 
 [[files]]
@@ -1050,12 +1050,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "bcdd9de050d7efbc77ffc3ce177905bf099301e3fd48993606402fc70537bc18"
+hash = "c0f73c72c3903c3302a2589ba75fd4e1f4c1b3e2b1fe478340b2c826b55e5cd4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5d4e493a74a7deb175d278274e6990f92d1a3910fae5d4866a1520bbca9acce2"
+hash = "e824f362b3537caa9dc64e54021f80b0f9f7a8eac36603fd8a3e53f3c7264670"
 metafile = true
 
 [[files]]
@@ -1065,7 +1065,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "aea57e9f582f669231634b1d311c68a2d7d26f26d53865e00839e211d3059074"
+hash = "3233e81e60fb4bb18d9050137fc780dfc249aaf1558d1da84e57014ba1d46ac9"
 metafile = true
 
 [[files]]
