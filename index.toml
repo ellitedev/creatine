@@ -1086,6 +1086,11 @@ hash = "c9e89c2a117b070d48c93db27959481aff7f74be0988ac9795214ab79e948625"
 metafile = true
 
 [[files]]
+file = "mods/threatengl.pw.toml"
+hash = "8ad08b7e8faec8a46438e1551f717e4a35bba2e23f44f490a35e4275e5030734"
+metafile = true
+
+[[files]]
 file = "mods/too-fast.pw.toml"
 hash = "49fb27f04c4ec26614fd121a7a8f7764d59949d0b6a3c32a63fb57fd2b3c8ea9"
 metafile = true
