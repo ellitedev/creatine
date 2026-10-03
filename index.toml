@@ -21,6 +21,14 @@ file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
 
 [[files]]
+file = "config/cosmetica/cosmetica.properties"
+hash = "2fa886d6702af13c86794007e1c117e87b0deace3d3221c19355542eed3d0b81"
+
+[[files]]
+file = "config/cosmetica/pack_settings.json.disabled"
+hash = "078e0eaaa6e3f01338ddcd3f7790eba48a7a9f48c9f91fce80f1f4ad98a7b441"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
 
