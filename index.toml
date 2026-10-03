@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/release-discord.yml"
+hash = "646e48b4a265f36d26b1ca0eb5803036739725f0ef2b3abc5513c18d8d48d67d"
+
+[[files]]
 file = ".markdownlint.json"
 hash = "b0e1b548d9c4b8448446b89d066384c6bbd525ee76dc518b9b345e6f96fadd1a"
 
@@ -1180,4 +1184,4 @@ hash = "2f808679ed11a0a11c18a2d5c92a5d900e1a1c0a0b0dafd63d33e6e365fe32bf"
 
 [[files]]
 file = "version.txt"
-hash = "1b745837b04f53ead22fe24943cd5658f2b38f001273a80d9c5d1d8b6a4cd86a"
+hash = "059a805dfd539d2cae556f86702fe030d0c82507258ce829d66f1c785548e8ed"
