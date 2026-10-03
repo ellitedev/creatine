@@ -1,0 +1,51 @@
+name: Discord release notification
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send release embed to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          ROLE_ID: ${{ secrets.DISCORD_ROLE_ID }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
+          NAME: ${{ github.event.release.name }}
+          BODY: ${{ github.event.release.body }}
+          URL: ${{ github.event.release.html_url }}
+          AUTHOR: ${{ github.event.release.author.login }}
+          AVATAR: ${{ github.event.release.author.avatar_url }}
+          PRERELEASE: ${{ github.event.release.prerelease }}
+        run: |
+          jq -n \
+            --arg role "$ROLE_ID" \
+            --arg repo "$REPO" \
+            --arg tag "$TAG" \
+            --arg name "${NAME:-$TAG}" \
+            --arg body "$BODY" \
+            --arg url "$URL" \
+            --arg author "$AUTHOR" \
+            --arg avatar "$AVATAR" \
+            --arg pre "$PRERELEASE" \
+            '{
+              content: "<@&\($role)>",
+              allowed_mentions: {roles: [$role]},
+              embeds: [{
+                title: "\($repo) \($tag)\(if $pre == "true" then " (pre-release)" else "" end)",
+                url: $url,
+                description: (if ($body | length) > 0 then ($body | .[0:1500]) else "No release notes provided." end),
+                color: 8240102,
+                author: {name: $author, icon_url: $avatar},
+                fields: [
+                  {name: "Release", value: $name, inline: true},
+                  {name: "Tag", value: $tag, inline: true}
+                ],
+                footer: {text: "New release published"},
+                timestamp: (now | todate)
+              }]
+            }' \
+          | curl -fsS -H "Content-Type: application/json" -d @- "$WEBHOOK"
