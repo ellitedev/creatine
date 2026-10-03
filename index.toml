@@ -33,6 +33,10 @@ file = "config/defaultoptions/keybindings.txt"
 hash = "36cc9164ba8115d391958625b4c922318ef1f9aa3fa793a0289d55c7ac9ced1a"
 
 [[files]]
+file = "config/entityculling.json"
+hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
+
+[[files]]
 file = "config/fabrictailor.json"
 hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
 
