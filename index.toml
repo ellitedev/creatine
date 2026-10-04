@@ -775,6 +775,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/forgedpaginatedadvancements.pw.toml"
+hash = "bfab7ba5502c0f1dc632f25b34e99e907b6416688bcde8b0f4a5c19872c75e31"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
 metafile = true
