@@ -65,6 +65,10 @@ file = "config/defaultoptions/keybindings.txt"
 hash = "36cc9164ba8115d391958625b4c922318ef1f9aa3fa793a0289d55c7ac9ced1a"
 
 [[files]]
+file = "config/entity_texture_features.json"
+hash = "c27c2904c6857c9429afe2fb0f516a16a7f520c047a26c9c179d44ec133400ad"
+
+[[files]]
 file = "config/entityculling.json"
 hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
 
