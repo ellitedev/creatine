@@ -1,0 +1,13 @@
+name = "Delightful Fares"
+filename = "delightful_fares-1.1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Eqa1BuMT/versions/8F0o6IO9/delightful_fares-1.1.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "46909e61b1b9f6f6496e5fc7ddde3da6320cc17fddb7e18195421cb0b3b28c99fe9c8d75ad84b8a3628fe475384ea39625d6ff40f918a9295fb6b0802fe97272"
+
+[update]
+[update.modrinth]
+mod-id = "Eqa1BuMT"
+version = "8F0o6IO9"
