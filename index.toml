@@ -245,6 +245,10 @@ file = "config/simpleclouds-client.toml"
 hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
 
 [[files]]
+file = "config/sodium-options.json"
+hash = "37aaf52aa7545527c7ade71ac77ad2fcf6019995bf58b6ea1fe0f52949919d18"
+
+[[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "c6b9656995038eab2559e403196bb2d672e663bf1dbc3e26ffa17778f361875c"
 
