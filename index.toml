@@ -431,11 +431,6 @@ hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
 
 [[files]]
-file = "mods/contraption-lights.pw.toml"
-hash = "824853d939d36a085c8c6f58b66565771c8e8ad891d624675521f9abcc03a117"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
@@ -568,6 +563,11 @@ metafile = true
 [[files]]
 file = "mods/create-prismatic-shine.pw.toml"
 hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
+metafile = true
+
+[[files]]
+file = "mods/create-sable-dynamic-lights.pw.toml"
+hash = "8bd25da66655f493b41b090867efb1b33241b8b9f623190c8991fe17709478e1"
 metafile = true
 
 [[files]]
@@ -836,11 +836,6 @@ hash = "05ed9cd04509dd53ef2a32a294753c50a15d5c7f1df1abc49da7231b58e62720"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
-metafile = true
-
-[[files]]
 file = "mods/lampblack.pw.toml"
 hash = "967dd017cea0cfe26dd5b394c97a1532a6c277c98e19baa31507929f87a71be1"
 metafile = true
@@ -1058,6 +1053,11 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
+metafile = true
+
+[[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]
