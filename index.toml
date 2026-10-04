@@ -221,6 +221,10 @@ file = "config/moreculling.toml"
 hash = "f88f0eb1ea54903eb6355031ec19afb21fe1c7715ff29616a76ed9ddaf089c95"
 
 [[files]]
+file = "config/nowheel.json"
+hash = "c496610f769e4ae3d8acc9a4bca7c6421168e82c70c33ab1b18a78aad94b230d"
+
+[[files]]
 file = "config/simpleclouds-client.toml"
 hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
 
