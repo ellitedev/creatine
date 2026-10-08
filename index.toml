@@ -410,6 +410,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "eb0c1e82baced061d551f83b4be1c9996029d8b6571eca5390bc0eca96b9f7a6"
+metafile = true
+
+[[files]]
 file = "mods/bettertabinfo.pw.toml"
 hash = "23e957d1bba4cd90779a0f492f232bd9a65d401981cc797b31c9de7ec9cb1b92"
 metafile = true
