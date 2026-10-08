@@ -62,7 +62,7 @@ hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "36cc9164ba8115d391958625b4c922318ef1f9aa3fa793a0289d55c7ac9ced1a"
+hash = "724aced5a3d273178ab1fa919d8662262353a472b16aa9e28a9cb6c986ca5da4"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -797,6 +797,11 @@ metafile = true
 [[files]]
 file = "mods/get-it-together-drops.pw.toml"
 hash = "1f805479ca7f01f27c1bf662d7d9ccb9e3935e7007e05b469b1072ca09e9e421"
+metafile = true
+
+[[files]]
+file = "mods/gpushift.pw.toml"
+hash = "bb52b1337b5f22655a0c147a906fe7944d40b63e2e1ea96e987b4d7ccd0ed683"
 metafile = true
 
 [[files]]

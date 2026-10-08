@@ -150,7 +150,7 @@ key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown:
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown:
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:
 key_keys.panoramic_screenshot.take_panoramic_screenshot:key.keyboard.f8:
-key_keys.panoramic_screenshot.take_skybox_screenshot:key.keyboard.f9:
+key_keys.panoramic_screenshot.take_skybox_screenshot:key.keyboard.unknown:
 key_key.sophisticatedcore.sort:key.mouse.middle:
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket:
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket:
