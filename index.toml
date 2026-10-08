@@ -600,6 +600,11 @@ hash = "b5c4217d430af59d3243e8717ad09398864b726272e1ded301f182604d704a45"
 metafile = true
 
 [[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
+metafile = true
+
+[[files]]
 file = "mods/create-prismatic-shine.pw.toml"
 hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
 metafile = true
