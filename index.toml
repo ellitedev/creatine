@@ -14,7 +14,7 @@ hash = "73e9043cce5c526faf3e09e56ea5ce26b1811900d54a5e9f41a0e3ce208287f2"
 
 [[files]]
 file = "README.md"
-hash = "0f82946ffd12ab738a5a4e7e3096a9f9f56f48b1faabdb0b81f63b292ce1bbbc"
+hash = "6a1e783cb57c909776495ff92fddf6de3ed886c40ab66eea5f0e9439e7f33474"
 
 [[files]]
 file = "assets/blockbench-wordlogo/wordlogo.png"
@@ -59,6 +59,10 @@ hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
 [[files]]
 file = "config/create_submarine_client_state.json"
 hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
+
+[[files]]
+file = "config/defaultoptions/extra/DistantHorizons.toml"
+hash = "9a88921db8968ebf19d52b7f6b1870de4bbb9bf9f7a4723417178fc7659dc304"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
