@@ -329,6 +329,10 @@ file = "icon.png"
 hash = "3f21108fa14eb2c7e0aed9c1093e4deb4cd9c93e02fcdcf39aef37c0da248bb3"
 
 [[files]]
+file = "modlist.md"
+hash = "c0d138e0180f5bf238c3e0c76e52ea300d186afaa344bc3ed2a860b53b05c956"
+
+[[files]]
 file = "mods/additional-placements.pw.toml"
 hash = "395d4093dc758f43f50adc813d92dfcd1936dc83f31c048af255d97ba588746f"
 metafile = true
