@@ -6,18 +6,22 @@
 
 An extensive (and opinionated) Create modpack that aims to include a lot of Create addons that work together. Also includes other stuff my friends wanted.
 
-
 We use [PackItUp](https://codeberg.org/Dexrn/PackItUp) to package and release our modpack.
 
-
 ## Recommended launcher settings:
+
 - Minimum Memory Usage: `8192`MiB
 - Maximum Memory Usage: `8192`MiB
 - PermGen Size: `512`MiB
 
 JVM args:
-```
+
+```shell
 -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch
 ```
 
 In Prism, you can find these settings under the instance settings, then `Settings` > `Java`
+
+## Running a server
+
+Either follow your hosting provider of choice's instructions on hosting a modrinth modpack. Or look at our [docs](https://github.com/ellitedev/creatine/blob/0b472a90fe7371d023f1c6b7b89253a65d4fdf6f/docs/selfhost.md) for self-hosting instructions.
