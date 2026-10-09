@@ -7,7 +7,7 @@ We use [PackItUp](https://codeberg.org/Dexrn/PackItUp) to package and release ou
 
 
 ## Recommended launcher settings:
-- Minimum Memory Usage: `4096`MiB
+- Minimum Memory Usage: `8192`MiB
 - Maximum Memory Usage: `8192`MiB
 - PermGen Size: `512`MiB
 
