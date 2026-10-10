@@ -1,6 +1,6 @@
 # Selfhosting
 
-Self hosting a Minecraft on your own VPS/Dedicated Server/System is very easy! Even easier if you already have [Docker](https://www.docker.com/get-started/) set up.
+Self hosting a Minecraft server on your own VPS/Dedicated Server/System is very easy! Even easier if you already have [Docker](https://www.docker.com/get-started/) set up.
 
 This guide will assume you have some basic knowledge of docker.
 
