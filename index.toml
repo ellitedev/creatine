@@ -33,10 +33,6 @@ file = "config/NoChatReports/NCR-Encryption.json"
 hash = "ad41c18d8223070fe2a7566dd6d9baad76edc4424c8f6ee3c9e0c596eb7d5a3f"
 
 [[files]]
-file = "config/asynclogger.toml"
-hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
-
-[[files]]
 file = "config/cosmetica/cosmetica.properties"
 hash = "2fa886d6702af13c86794007e1c117e87b0deace3d3221c19355542eed3d0b81"
 
@@ -45,24 +41,60 @@ file = "config/cosmetica/pack_settings.json.disabled"
 hash = "078e0eaaa6e3f01338ddcd3f7790eba48a7a9f48c9f91fce80f1f4ad98a7b441"
 
 [[files]]
-file = "config/create-server.toml"
+file = "config/defaultoptions/extra/config/DistantHorizons.toml"
+hash = "9a88921db8968ebf19d52b7f6b1870de4bbb9bf9f7a4723417178fc7659dc304"
+
+[[files]]
+file = "config/defaultoptions/extra/config/asynclogger.toml"
+hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
+
+[[files]]
+file = "config/defaultoptions/extra/config/create-server.toml"
 hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
 
 [[files]]
-file = "config/create_submarine-client.toml"
+file = "config/defaultoptions/extra/config/create_submarine-client.toml"
 hash = "651fc0b7c19e2793661124f9e690f1c8561d80b320a1828a9a5982c7cf7a362c"
 
 [[files]]
-file = "config/create_submarine-common.toml"
+file = "config/defaultoptions/extra/config/create_submarine-common.toml"
 hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
 
 [[files]]
-file = "config/create_submarine_client_state.json"
+file = "config/defaultoptions/extra/config/create_submarine_client_state.json"
 hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
 
 [[files]]
-file = "config/defaultoptions/extra/config/DistantHorizons.toml"
-hash = "9a88921db8968ebf19d52b7f6b1870de4bbb9bf9f7a4723417178fc7659dc304"
+file = "config/defaultoptions/extra/config/entityculling.json"
+hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
+
+[[files]]
+file = "config/defaultoptions/extra/config/fabrictailor.json"
+hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
+
+[[files]]
+file = "config/defaultoptions/extra/config/immediatelyfast.json"
+hash = "8cc7c7abb485d30acd5ee080c87f3fbb5c5138c9751de9140d9a464981a68629"
+
+[[files]]
+file = "config/defaultoptions/extra/config/lampblack.toml"
+hash = "4215704f26fc1a24e92846e05e60f149681ae1cde0c6da7847d16be2262932e3"
+
+[[files]]
+file = "config/defaultoptions/extra/config/modernfix-mixins.properties"
+hash = "930c87fac45b2e6fdbbc532f3198c2a1dc2fbe02276d3974353a55f7e836248d"
+
+[[files]]
+file = "config/defaultoptions/extra/config/simpleclouds-client.toml"
+hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
+
+[[files]]
+file = "config/defaultoptions/extra/config/styled-chat.json"
+hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
+
+[[files]]
+file = "config/defaultoptions/extra/config/styled-nicknames.json"
+hash = "2763ebb278ef1f1ab535fcd0c0887bfb5915557ecac72a333674b9caaeaadf16"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -71,14 +103,6 @@ hash = "724aced5a3d273178ab1fa919d8662262353a472b16aa9e28a9cb6c986ca5da4"
 [[files]]
 file = "config/entity_texture_features.json"
 hash = "c27c2904c6857c9429afe2fb0f516a16a7f520c047a26c9c179d44ec133400ad"
-
-[[files]]
-file = "config/entityculling.json"
-hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
-
-[[files]]
-file = "config/fabrictailor.json"
-hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
 
 [[files]]
 file = "config/fancymenu/assets/background.png"
@@ -225,18 +249,6 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
-file = "config/immediatelyfast.json"
-hash = "8cc7c7abb485d30acd5ee080c87f3fbb5c5138c9751de9140d9a464981a68629"
-
-[[files]]
-file = "config/lampblack.toml"
-hash = "4215704f26fc1a24e92846e05e60f149681ae1cde0c6da7847d16be2262932e3"
-
-[[files]]
-file = "config/modernfix-mixins.properties"
-hash = "930c87fac45b2e6fdbbc532f3198c2a1dc2fbe02276d3974353a55f7e836248d"
-
-[[files]]
 file = "config/moreculling.toml"
 hash = "abf6a3b2acbd3348295bece5f7f71db8685c89259be951e0df7f20ae1eb6ccc9"
 
@@ -245,24 +257,12 @@ file = "config/nowheel.json"
 hash = "c496610f769e4ae3d8acc9a4bca7c6421168e82c70c33ab1b18a78aad94b230d"
 
 [[files]]
-file = "config/simpleclouds-client.toml"
-hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
-
-[[files]]
 file = "config/sodium-options.json"
 hash = "37aaf52aa7545527c7ade71ac77ad2fcf6019995bf58b6ea1fe0f52949919d18"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "c6b9656995038eab2559e403196bb2d672e663bf1dbc3e26ffa17778f361875c"
-
-[[files]]
-file = "config/styled-chat.json"
-hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
-
-[[files]]
-file = "config/styled-nicknames.json"
-hash = "2763ebb278ef1f1ab535fcd0c0887bfb5915557ecac72a333674b9caaeaadf16"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
