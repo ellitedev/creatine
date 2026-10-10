@@ -24,4 +24,4 @@ In Prism, you can find these settings under the instance settings, then `Setting
 
 ## Running a server
 
-Either follow your hosting provider of choice's instructions on hosting a modrinth modpack. Or look at our [docs](https://github.com/ellitedev/creatine/blob/0b472a90fe7371d023f1c6b7b89253a65d4fdf6f/docs/selfhost.md) for self-hosting instructions.
+Either follow your hosting provider of choice's instructions on hosting a modrinth modpack. Or look at our [docs](https://github.com/ellitedev/creatine/blob/main/docs/selfhost.md) for self-hosting instructions.
