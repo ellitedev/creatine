@@ -1,13 +1,13 @@
 name = "Creatine"
 author = "alpinesystem"
-version = "1.5.0"
+version = "1.5.1"
 description = "An extensive Create modpack that aims to include almost every extension that works together. Also includes other stuff my friends wanted."
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "63351b0bf35bedeaafb48ae2e256663dbf46832e911e7ca6c38f518f3274a4a7"
+hash = "d58c06c6befb72b6a1adcc5c4efef2a54287abb9af98de5ce3acf9bda99257f0"
 
 [versions]
 minecraft = "1.21.1"
