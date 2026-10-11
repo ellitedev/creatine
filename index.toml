@@ -6,7 +6,7 @@ hash = "73e9043cce5c526faf3e09e56ea5ce26b1811900d54a5e9f41a0e3ce208287f2"
 
 [[files]]
 file = "config/asynclogger.toml"
-hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
+hash = "700cca02711132a3bf8fa6070b35012f45cd410ac2ec39e905801eb82a3e8de7"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
