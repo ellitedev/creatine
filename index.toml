@@ -85,10 +85,6 @@ file = "config/defaultoptions/extra/config/modernfix-mixins.properties"
 hash = "930c87fac45b2e6fdbbc532f3198c2a1dc2fbe02276d3974353a55f7e836248d"
 
 [[files]]
-file = "config/defaultoptions/extra/config/simpleclouds-client.toml"
-hash = "1e192def68392279a6f5849e83252ddc2612478b9ac04f8c85fd6cc0b97ce8b5"
-
-[[files]]
 file = "config/defaultoptions/extra/config/styled-chat.json"
 hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
 
@@ -330,7 +326,7 @@ hash = "3f21108fa14eb2c7e0aed9c1093e4deb4cd9c93e02fcdcf39aef37c0da248bb3"
 
 [[files]]
 file = "modlist.md"
-hash = "c0d138e0180f5bf238c3e0c76e52ea300d186afaa344bc3ed2a860b53b05c956"
+hash = "9a5bbb5cb6641ff12ffb1cf63f585148c998f215e93c37e3e57382638fb73745"
 
 [[files]]
 file = "mods/additional-placements.pw.toml"
@@ -375,11 +371,6 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
-metafile = true
-
-[[files]]
-file = "mods/async.pw.toml"
-hash = "f55bf28128a2b5d9f5970e8e713f47e751650d9a2f5b44e8298f5a8398336d07"
 metafile = true
 
 [[files]]
@@ -989,7 +980,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "f32f944f62c4ea97b2d1f8582bb5f1a0adf7f62983b35f75288e27025365d7d0"
+hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
 metafile = true
 
 [[files]]
@@ -1049,7 +1040,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-rain.pw.toml"
-hash = "0036fedda388192221893df1b2e5c1e23af000f98c52fea383e6d2d1e85a3bcd"
+hash = "bb3302ebfd619afbda63f5365628856d4680c0a3fe86bfbdf1135d2a48acb190"
 metafile = true
 
 [[files]]
@@ -1269,7 +1260,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeroplus.pw.toml"
-hash = "7424d2c30eb44d471b1b9807c965eca92c46ea2407e81b678b61d36c56ab10d2"
+hash = "7c1262127eae4dcf2864fda5572f80ec9b1a75642e33207bcd57efa2438a550d"
 metafile = true
 
 [[files]]

@@ -57,7 +57,6 @@
 - [Almost Unified](https://modrinth.com/mod/sdaSaQEz/version/e8iYxxI3)
 - [AppleSkin](https://modrinth.com/mod/EsAfCjCV/version/uAKA6Laj)
 - [Architectury API](https://modrinth.com/mod/lhGA9TYQ/version/1IiqEQGl)
-- [Async](https://modrinth.com/mod/vEC2jm6I/version/pP8zrgTu)
 - [Async Logger](https://modrinth.com/mod/zvNzKfGF/version/yj7KaIVy)
 - [Axes Are Weapons](https://modrinth.com/mod/1jvt7RTc/version/2bqCbUXm)
 - [Azimuth API](https://modrinth.com/mod/RpH8tmT1/version/j7UkVY7e)

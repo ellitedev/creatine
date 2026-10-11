@@ -1,6 +1,6 @@
 name = "XaeroPlus"
 filename = "XaeroPlus-2.36.6+neoforge-1.21.1-WM1.47.0-MM26.6.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/EnPUzSTg/versions/6mm73tzG/XaeroPlus-2.36.6%2Bneoforge-1.21.1-WM1.47.0-MM26.6.0.jar"
