@@ -20,3 +20,14 @@ testserver.sh
 .git
 cliff.toml
 docs
+
+# repo-only files, not part of the game instance
+/assets
+/.github
+.markdownlint.json
+README.md
+modlist.md
+release.sh
+
+# resource/data packs loaded by Open Loader are part of the pack
+!config/openloader/packs/*.zip

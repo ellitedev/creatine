@@ -15,3 +15,5 @@ packitup.schema.json
 
 # stupid AI stuff
 /.kilo
+# resource/data packs loaded by Open Loader are part of the pack
+!config/openloader/packs/*.zip

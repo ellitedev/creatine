@@ -1,124 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/release-discord.yml"
-hash = "646e48b4a265f36d26b1ca0eb5803036739725f0ef2b3abc5513c18d8d48d67d"
-
-[[files]]
-file = ".markdownlint.json"
-hash = "b0e1b548d9c4b8448446b89d066384c6bbd525ee76dc518b9b345e6f96fadd1a"
-
-[[files]]
 file = "LICENSE"
 hash = "73e9043cce5c526faf3e09e56ea5ce26b1811900d54a5e9f41a0e3ce208287f2"
 
 [[files]]
-file = "README.md"
-hash = "a054cbb3bce97e558255c4fc7305280ddaa5a23ae70da6d88e81bf74f485ddbe"
-
-[[files]]
-file = "assets/blockbench-wordlogo/wordlogo.png"
-hash = "3112793ee4e5881dea2918ebf7f3fabc6cc0277e39db02d16feb32e42074ca89"
-
-[[files]]
-file = "config/NoChatReports/NCR-Client.json"
-hash = "e1ef79c2827deb3971b388c2bd63c183ac03ac327c91a4e28b7af96c69c472db"
-
-[[files]]
-file = "config/NoChatReports/NCR-Common.json"
-hash = "77777d6d4901caa3b49847bde37722ee3cf81d745cfc2e8ffdd2aca6211418e8"
-
-[[files]]
-file = "config/NoChatReports/NCR-Encryption.json"
-hash = "ad41c18d8223070fe2a7566dd6d9baad76edc4424c8f6ee3c9e0c596eb7d5a3f"
-
-[[files]]
-file = "config/cosmetica/cosmetica.properties"
-hash = "2fa886d6702af13c86794007e1c117e87b0deace3d3221c19355542eed3d0b81"
-
-[[files]]
-file = "config/cosmetica/pack_settings.json.disabled"
-hash = "078e0eaaa6e3f01338ddcd3f7790eba48a7a9f48c9f91fce80f1f4ad98a7b441"
-
-[[files]]
-file = "config/defaultoptions/extra/config/DistantHorizons.toml"
-hash = "9a88921db8968ebf19d52b7f6b1870de4bbb9bf9f7a4723417178fc7659dc304"
-
-[[files]]
-file = "config/defaultoptions/extra/config/asynclogger.toml"
+file = "config/asynclogger.toml"
 hash = "36fab9a36f63b8420cd69be67e368212a872394450f660f233bdb1deb6a50923"
-
-[[files]]
-file = "config/defaultoptions/extra/config/create-server.toml"
-hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
-
-[[files]]
-file = "config/defaultoptions/extra/config/create_submarine-client.toml"
-hash = "651fc0b7c19e2793661124f9e690f1c8561d80b320a1828a9a5982c7cf7a362c"
-
-[[files]]
-file = "config/defaultoptions/extra/config/create_submarine-common.toml"
-hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
-
-[[files]]
-file = "config/defaultoptions/extra/config/create_submarine_client_state.json"
-hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
-
-[[files]]
-file = "config/defaultoptions/extra/config/entityculling.json"
-hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
-
-[[files]]
-file = "config/defaultoptions/extra/config/fabrictailor.json"
-hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
-
-[[files]]
-file = "config/defaultoptions/extra/config/immediatelyfast.json"
-hash = "8cc7c7abb485d30acd5ee080c87f3fbb5c5138c9751de9140d9a464981a68629"
-
-[[files]]
-file = "config/defaultoptions/extra/config/lampblack.toml"
-hash = "4215704f26fc1a24e92846e05e60f149681ae1cde0c6da7847d16be2262932e3"
-
-[[files]]
-file = "config/defaultoptions/extra/config/modernfix-mixins.properties"
-hash = "930c87fac45b2e6fdbbc532f3198c2a1dc2fbe02276d3974353a55f7e836248d"
-
-[[files]]
-file = "config/defaultoptions/extra/config/styled-chat.json"
-hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
-
-[[files]]
-file = "config/defaultoptions/extra/config/styled-nicknames.json"
-hash = "2763ebb278ef1f1ab535fcd0c0887bfb5915557ecac72a333674b9caaeaadf16"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "724aced5a3d273178ab1fa919d8662262353a472b16aa9e28a9cb6c986ca5da4"
 
 [[files]]
-file = "config/entity_texture_features.json"
-hash = "c27c2904c6857c9429afe2fb0f516a16a7f520c047a26c9c179d44ec133400ad"
-
-[[files]]
 file = "config/fancymenu/assets/background.png"
 hash = "9ea93f24ce8d25c8096b56c2c07abd805734d1ff060d7c795a95056ac687b5eb"
-
-[[files]]
-file = "config/fancymenu/assets/blockbench-wordlogo/creatine-model.bbmodel"
-hash = "aa6fa3939cbc2a153964bd2f87f5b8a3938b0b7a45dfe41b8fb40f799a3f8f68"
-
-[[files]]
-file = "config/fancymenu/assets/blockbench-wordlogo/creatine-texture.png"
-hash = "87eccb98176c99176cc9bf5ff98e767360b5fe77e8e425b89508e7517e3bb769"
-
-[[files]]
-file = "config/fancymenu/assets/blockbench-wordlogo/creatine.png"
-hash = "87eccb98176c99176cc9bf5ff98e767360b5fe77e8e425b89508e7517e3bb769"
-
-[[files]]
-file = "config/fancymenu/assets/blockbench-wordlogo/model.bbmodel"
-hash = "aa6fa3939cbc2a153964bd2f87f5b8a3938b0b7a45dfe41b8fb40f799a3f8f68"
 
 [[files]]
 file = "config/fancymenu/assets/blockbench-wordlogo/wordlogo.png"
@@ -129,20 +25,12 @@ file = "config/fancymenu/assets/window-icons/1024x.icns"
 hash = "49a05fc9d721c9cacfb365634b3fae62e0e65b8d4c8bd00e698f4d3bd45ccd5d"
 
 [[files]]
-file = "config/fancymenu/assets/window-icons/1024x.png"
-hash = "1404fb6ba02914025858276f3e58a28f584527032dd5e712f51e1494b11dfa79"
-
-[[files]]
 file = "config/fancymenu/assets/window-icons/16x.png"
 hash = "ffcd7dc74c2dcde6020013e491436ff966446e0f3e12e7a27b03f2755152e451"
 
 [[files]]
 file = "config/fancymenu/assets/window-icons/32x.png"
 hash = "99fc41a906c51d1fc66546995a602345d006df290604c773f0987ea56d32fea5"
-
-[[files]]
-file = "config/fancymenu/assets/window-icons/64x.png"
-hash = "770e17d6d7e95d9a73b16aff53d091448cf02a8c306485664997f9a4ddbdc5ad"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -163,10 +51,6 @@ hash = "69a33192561083aff91adec82003f4296aabf5b548b20bf37bf4c124900f9d0c"
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
 hash = "2c3be26c37e7aa3d3bae3fc43dbc8cb3f9fc52a282950b24a19b8cd7051065a7"
-
-[[files]]
-file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "f4376005d963ff52e6a4e937e4413e539b4e08ef21c9f060df3696a236bcc14e"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -241,92 +125,176 @@ file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+file = "config/openloader/packs/CreateSophBackpacks.zip"
+hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
 
 [[files]]
-file = "config/moreculling.toml"
+file = "config/openloader/packs/CreateSophStorage.zip"
+hash = "2920d92df7a14d5ff3fcc5b73c6f384d1586096bf86f9a38bfb3b7d33ecf53e1"
+
+[[files]]
+file = "config/openloader/packs/RAYs_3D_Ladders_v2.4.zip"
+hash = "ecf435029820168d8df9f4eb8d3f63e35263be8ce06c4c1e69ded52cc6cf52ca"
+
+[[files]]
+file = "config/openloader/packs/RAYs_3D_Rails_v3.6.zip"
+hash = "8d98e6cf93d6baa5b4ec14443a399872a03b7cb3adc1c5ee703cd1ac3a72f44c"
+
+[[files]]
+file = "config/openloader/packs/Simple Create Radios V2.01.zip"
+hash = "febf1c997be22dbbf52f5f9b47fadf1ed1e2646056dbbdcc52009680a3fc8452"
+
+[[files]]
+file = "config/openloader/packs/§a§lVocal Villagers §r§71.4.zip"
+hash = "3e26f37ede8f26972a95fcf4dd947174fe6be46df2cde70176504a8329e5d20b"
+
+[[files]]
+file = "config/yosbr/config/DistantHorizons.toml"
+hash = "9a88921db8968ebf19d52b7f6b1870de4bbb9bf9f7a4723417178fc7659dc304"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Client.json"
+hash = "e1ef79c2827deb3971b388c2bd63c183ac03ac327c91a4e28b7af96c69c472db"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Common.json"
+hash = "77777d6d4901caa3b49847bde37722ee3cf81d745cfc2e8ffdd2aca6211418e8"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Encryption.json"
+hash = "ad41c18d8223070fe2a7566dd6d9baad76edc4424c8f6ee3c9e0c596eb7d5a3f"
+
+[[files]]
+file = "config/yosbr/config/cosmetica/cosmetica.properties"
+hash = "2fa886d6702af13c86794007e1c117e87b0deace3d3221c19355542eed3d0b81"
+
+[[files]]
+file = "config/yosbr/config/create-server.toml"
+hash = "079855a571cf0b22dd3654de9901dc42f783917b0f7f85a0b09d1be116c368d5"
+
+[[files]]
+file = "config/yosbr/config/create_submarine-client.toml"
+hash = "651fc0b7c19e2793661124f9e690f1c8561d80b320a1828a9a5982c7cf7a362c"
+
+[[files]]
+file = "config/yosbr/config/create_submarine-common.toml"
+hash = "9311044f17fdb28550e18afb0bc5f76723e77ff89c37f56667ccf84b73be1c24"
+
+[[files]]
+file = "config/yosbr/config/create_submarine_client_state.json"
+hash = "9c0b96130aa6b11cb3e4963be18cb9fc30c289e526b75b2d4e797dae8f75245e"
+
+[[files]]
+file = "config/yosbr/config/entity_texture_features.json"
+hash = "c27c2904c6857c9429afe2fb0f516a16a7f520c047a26c9c179d44ec133400ad"
+
+[[files]]
+file = "config/yosbr/config/entityculling.json"
+hash = "e8b03f88965c81ff232e26ddc7127b9234e4e509f315a4b6739e23470c3233ed"
+
+[[files]]
+file = "config/yosbr/config/fabrictailor.json"
+hash = "8f0229e416ef3e48c140dc70121fff9cb64cd465f31c6490eb8e4c38ed9fe9c8"
+
+[[files]]
+file = "config/yosbr/config/immediatelyfast.json"
+hash = "8cc7c7abb485d30acd5ee080c87f3fbb5c5138c9751de9140d9a464981a68629"
+
+[[files]]
+file = "config/yosbr/config/lampblack.toml"
+hash = "4215704f26fc1a24e92846e05e60f149681ae1cde0c6da7847d16be2262932e3"
+
+[[files]]
+file = "config/yosbr/config/modernfix-mixins.properties"
+hash = "930c87fac45b2e6fdbbc532f3198c2a1dc2fbe02276d3974353a55f7e836248d"
+
+[[files]]
+file = "config/yosbr/config/moreculling.toml"
 hash = "abf6a3b2acbd3348295bece5f7f71db8685c89259be951e0df7f20ae1eb6ccc9"
 
 [[files]]
-file = "config/nowheel.json"
+file = "config/yosbr/config/nowheel.json"
 hash = "c496610f769e4ae3d8acc9a4bca7c6421168e82c70c33ab1b18a78aad94b230d"
 
 [[files]]
-file = "config/sodium-options.json"
+file = "config/yosbr/config/sodium-options.json"
 hash = "37aaf52aa7545527c7ade71ac77ad2fcf6019995bf58b6ea1fe0f52949919d18"
 
 [[files]]
-file = "config/sodiumdynamiclights-client.toml"
+file = "config/yosbr/config/sodiumdynamiclights-client.toml"
 hash = "c6b9656995038eab2559e403196bb2d672e663bf1dbc3e26ffa17778f361875c"
 
 [[files]]
-file = "config/xaero/lib/client.cfg"
+file = "config/yosbr/config/styled-chat.json"
+hash = "a7eab17bb1f3eaefadf600f61dc64ab66d3660f54459e67f3c2057a31b096cd0"
+
+[[files]]
+file = "config/yosbr/config/styled-nicknames.json"
+hash = "2763ebb278ef1f1ab535fcd0c0887bfb5915557ecac72a333674b9caaeaadf16"
+
+[[files]]
+file = "config/yosbr/config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
 [[files]]
-file = "config/xaero/lib/common.cfg"
+file = "config/yosbr/config/xaero/lib/common.cfg"
 hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
 
 [[files]]
-file = "config/xaero/lib/profiles/default.cfg"
+file = "config/yosbr/config/xaero/lib/profiles/default.cfg"
 hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
 
 [[files]]
-file = "config/xaero/lib/server_profiles/default.cfg"
+file = "config/yosbr/config/xaero/lib/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
-file = "config/xaero/minimap/client.cfg"
+file = "config/yosbr/config/xaero/minimap/client.cfg"
 hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
 
 [[files]]
-file = "config/xaero/minimap/common.cfg"
+file = "config/yosbr/config/xaero/minimap/common.cfg"
 hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
 
 [[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
+file = "config/yosbr/config/xaero/minimap/default_radar_categories_client.json"
 hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
 
 [[files]]
-file = "config/xaero/minimap/default_radar_categories_server.json"
+file = "config/yosbr/config/xaero/minimap/default_radar_categories_server.json"
 hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
+file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
 hash = "f1ff62b22cfc97486d00e8bd3367a3207f0a8da235e7b365c5aa2a54e3f8dc25"
 
 [[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+file = "config/yosbr/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
 hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
 
 [[files]]
-file = "config/xaero/minimap/server_profiles/default.cfg"
+file = "config/yosbr/config/xaero/minimap/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
-file = "config/xaero/world-map/client.cfg"
+file = "config/yosbr/config/xaero/world-map/client.cfg"
 hash = "33bcf15d5706daf090323b03c16e357c44bdb8e5f29a2f65ef839316b6e94c5f"
 
 [[files]]
-file = "config/xaero/world-map/common.cfg"
+file = "config/yosbr/config/xaero/world-map/common.cfg"
 hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
-file = "config/xaero/world-map/profiles/default.cfg"
+file = "config/yosbr/config/xaero/world-map/profiles/default.cfg"
 hash = "552bb1877a8f8a6b3eb56efe01f17cdfba2d11949b58384e98533e6467e0b18f"
 
 [[files]]
-file = "config/xaero/world-map/server_profiles/default.cfg"
+file = "config/yosbr/config/xaero/world-map/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "icon.png"
 hash = "3f21108fa14eb2c7e0aed9c1093e4deb4cd9c93e02fcdcf39aef37c0da248bb3"
-
-[[files]]
-file = "modlist.md"
-hash = "9a5bbb5cb6641ff12ffb1cf63f585148c998f215e93c37e3e57382638fb73745"
 
 [[files]]
 file = "mods/additional-placements.pw.toml"
@@ -1274,13 +1242,14 @@ hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]
-file = "mods/zfastnoise.pw.toml"
-hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
+file = "mods/yosbr-neo.pw.toml"
+hash = "f093cf9ea51450d9e691d1826517179c014fe94b216a519a9c36c1984859afdc"
 metafile = true
 
 [[files]]
-file = "release.sh"
-hash = "2f808679ed11a0a11c18a2d5c92a5d900e1a1c0a0b0dafd63d33e6e365fe32bf"
+file = "mods/zfastnoise.pw.toml"
+hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
+metafile = true
 
 [[files]]
 file = "version.txt"
