@@ -1,13 +1,13 @@
 name = "Xaero Border View"
-filename = "xaero_border_view-1.21.1-0.3.5-neo.jar"
+filename = "xaero_border_view-1.21.1-0.3.8-neo.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d66c69e6363c9cdf1df0c1159201348b8c761353"
+hash = "31ae6e9e9a2b0f744c1122fc7ce88e95b9d7a58a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8838147
+file-id = 9089574
 project-id = 1687403
