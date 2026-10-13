@@ -125,6 +125,10 @@ file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
+file = "config/openloader/packs/CosmonauticsOverworldStutterFix.zip"
+hash = "4e7b61685db3dde78142af309a4a7b6ed1ff4f9a4c67d29d0e683a5a7dd39999"
+
+[[files]]
 file = "config/openloader/packs/CreateSophBackpacks.zip"
 hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
 

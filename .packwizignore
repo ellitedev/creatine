@@ -15,6 +15,9 @@ PackItUp
 
 # stupid AI stuff
 .kilo
+
+# scratch files (profiles etc)
+/temp
 testserver.sh
 
 .git
