@@ -1,0 +1,195 @@
+name: Nightly
+
+# builds a pre-release from main at 23:59 Europe/Amsterdam, but only when
+# something that ends up in the pack changed since the last tag. never commits
+# to main and is never marked latest, so the public packwiz pack is untouched.
+
+on:
+  schedule:
+    # github cron is UTC only, so run at both 23:59 CEST and 23:59 CET and
+    # let the check step drop the one that doesn't match the current offset
+    - cron: "59 21 * * *"
+    - cron: "59 22 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "build even if nothing changed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+env:
+  MODRINTH_PROJECT: p9c4pS80
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check schedule and changes
+        id: check
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [[ "$EVENT" == "schedule" ]]; then
+            offset=$(TZ=Europe/Amsterdam date +%z)
+            case "$offset" in
+              +0200) want="59 21 * * *" ;;
+              *)     want="59 22 * * *" ;;
+            esac
+            if [[ "$SCHEDULE" != "$want" ]]; then
+              echo "not 23:59 in amsterdam right now (offset $offset), skipping"
+              echo "build=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            # runs can start late and cross midnight, so take the date a bit back
+            date=$(date -u -d '-2 hours' +%d.%m.%Y)
+          else
+            date=$(TZ=Europe/Amsterdam date +%d.%m.%Y)
+          fi
+
+          last=$(git describe --tags --abbrev=0 HEAD)
+          stable=$(git describe --tags --abbrev=0 --match 'v*' --exclude '*-nightly*' HEAD)
+          echo "last tag: $last, last stable: $stable"
+
+          # only count files that packwiz would put in the pack
+          # (it also skips the ignore files themselves)
+          { cat .packwizignore; printf '\n/.gitignore\n/.packwizignore\n'; } > "$RUNNER_TEMP/pwignore"
+          git -c core.quotePath=false diff --name-only "$last" HEAD > "$RUNNER_TEMP/changed.txt"
+          git -c core.excludesFile="$RUNNER_TEMP/pwignore" -c core.quotePath=false \
+            check-ignore --no-index --stdin < "$RUNNER_TEMP/changed.txt" > "$RUNNER_TEMP/ignored.txt" || true
+          relevant=$(grep -vxFf "$RUNNER_TEMP/ignored.txt" "$RUNNER_TEMP/changed.txt" || true)
+
+          if [[ -z "$relevant" && "$FORCE" != "true" ]]; then
+            echo "no pack changes since $last, skipping"
+            echo "build=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "pack changes since $last:"
+          echo "$relevant"
+
+          ver="${stable#v}.${date}-nightly"
+          # a second build on the same day (manual run) gets a counter
+          n=1
+          while git rev-parse -q --verify "refs/tags/v${ver}$([[ $n -gt 1 ]] && echo ".$n")" >/dev/null; do
+            n=$((n + 1))
+          done
+          [[ $n -gt 1 ]] && ver="${ver}.$n"
+
+          echo "version: $ver"
+          {
+            echo "build=true"
+            echo "last=$last"
+            echo "ver=$ver"
+            echo "tag=v$ver"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-go@v5
+        if: steps.check.outputs.build == 'true'
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Install packwiz
+        if: steps.check.outputs.build == 'true'
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Install git-cliff
+        if: steps.check.outputs.build == 'true'
+        uses: taiki-e/install-action@v2
+        with:
+          tool: git-cliff
+
+      - name: Build
+        if: steps.check.outputs.build == 'true'
+        env:
+          VER: ${{ steps.check.outputs.ver }}
+          TAG: ${{ steps.check.outputs.tag }}
+          LAST: ${{ steps.check.outputs.last }}
+        run: |
+          out="$RUNNER_TEMP/out"
+          mkdir -p "$out"
+
+          # version bump only lives in this checkout, nothing is pushed
+          echo "Creatine ${TAG}" > version.txt
+          sed -i -E "s/^version = \".*\"/version = \"${VER}\"/" pack.toml
+          packwiz refresh -y
+
+          git-cliff "${LAST}..HEAD" --tag "$TAG" -o "$out/changelog.md"
+
+          packwiz modrinth export -o "$out/Creatine ${TAG}.mrpack"
+          packwiz curseforge export -o "$out/Creatine-cf-${TAG}-both.zip"
+          packwiz curseforge export -s client -o "$out/Creatine-cf-${TAG}-client.zip"
+          packwiz curseforge export -s server -o "$out/Creatine-cf-${TAG}-server.zip"
+          ls -la "$out"
+
+      # modrinth first: if this fails no tag is made, so the next run retries
+      - name: Upload to Modrinth
+        if: steps.check.outputs.build == 'true'
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          VER: ${{ steps.check.outputs.ver }}
+          TAG: ${{ steps.check.outputs.tag }}
+        run: |
+          out="$RUNNER_TEMP/out"
+          mc=$(sed -nE 's/^minecraft = "(.*)"/\1/p' pack.toml)
+          loaders=$(sed -n '/^\[versions\]/,/^\[/p' pack.toml | grep -oE '^(neoforge|forge|fabric|quilt)\b' | jq -Rsc 'split("\n") | map(select(length > 0))')
+
+          jq -n \
+            --arg project "$MODRINTH_PROJECT" \
+            --arg name "Creatine ${TAG}" \
+            --arg ver "$VER" \
+            --arg mc "$mc" \
+            --argjson loaders "$loaders" \
+            --rawfile changelog "$out/changelog.md" \
+            '{
+              project_id: $project,
+              name: $name,
+              version_number: $ver,
+              changelog: $changelog,
+              dependencies: [],
+              game_versions: [$mc],
+              loaders: $loaders,
+              version_type: "alpha",
+              featured: false,
+              status: "listed",
+              file_parts: ["file"],
+              primary_file: "file"
+            }' > "$out/modrinth.json"
+          cat "$out/modrinth.json" | jq 'del(.changelog)'
+
+          curl -fsS \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -H "User-Agent: ${{ github.repository }} nightly" \
+            -F "data=<$out/modrinth.json;type=application/json" \
+            -F "file=@$out/Creatine ${TAG}.mrpack;type=application/x-modrinth-modpack+zip" \
+            https://api.modrinth.com/v2/version | jq '{id, version_number}'
+
+      - name: Create GitHub pre-release
+        if: steps.check.outputs.build == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.check.outputs.tag }}
+        run: |
+          out="$RUNNER_TEMP/out"
+          gh release create "$TAG" \
+            --target "$GITHUB_SHA" \
+            --title "$TAG" \
+            --notes-file "$out/changelog.md" \
+            --prerelease \
+            --latest=false \
+            "$out/Creatine-cf-${TAG}-both.zip" \
+            "$out/Creatine-cf-${TAG}-client.zip" \
+            "$out/Creatine-cf-${TAG}-server.zip" \
+            "$out/Creatine ${TAG}.mrpack"

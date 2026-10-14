@@ -43,6 +43,8 @@ commit_parsers = [
     { message = ".*", group = "Changes" },
 ]
 filter_commits = false
+# nightlies fold into the next stable changelog
+ignore_tags = ".*-nightly.*"
 fail_on_unmatched_commit = false
 link_parsers = []
 use_branch_tags = false

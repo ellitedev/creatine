@@ -1,0 +1,93 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL",
+    "meta": {
+        "version": "PLCN_v3",
+        "update_url": null
+    },
+    "exported_at": "2026-10-14T22:00:36+00:00",
+    "name": "Packwiz Serve",
+    "author": "admin@example.com",
+    "uuid": "0dff1b3e-5529-4efb-acad-0dc1da2e8cc8",
+    "description": "Hosts a packwiz modpack and auto-updates it from the latest GitHub release.",
+    "icon": null,
+    "tags": [],
+    "features": null,
+    "docker_images": {
+        "Debian": "ghcr.io/parkervcp/yolks:debian"
+    },
+    "file_denylist": [],
+    "startup_commands": {
+        "Default": "bash run.sh"
+    },
+    "config": {
+        "files": "{}",
+        "startup": "{\n    \"done\": \"packwiz serve starting\"\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!/bin/bash\n# packwiz serve installer\napt-get update\napt-get install -y curl jq unzip\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# packwiz has no official release binaries, so grab the latest CI build\ncurl -sSL -f -o packwiz.zip \"https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip\" || { echo \"could not download packwiz\"; exit 1; }\nunzip -o -q packwiz.zip packwiz || { echo \"could not unzip packwiz\"; exit 1; }\nchmod +x packwiz\nrm -f packwiz.zip\n\n# static tools, since the runtime image lacks jq and unzip\ncurl -sSL -f -o jq \"https://github.com/jqlang/jq/releases/latest/download/jq-linux-amd64\" || { echo \"could not download jq\"; exit 1; }\ncurl -sSL -f -o busybox \"https://busybox.net/downloads/binaries/1.35.0-x86_64-linux-musl/busybox\" || { echo \"could not download busybox\"; exit 1; }\nchmod +x jq busybox\n\n# runtime script: updater loop + packwiz serve\ncat > run.sh <<'RUNEOF'\n#!/bin/bash\ncd /home/container\nPORT=\"${SERVER_PORT:-8080}\"\nINTERVAL=\"${CHECK_INTERVAL:-300}\"\nmkdir -p pack\n\nupdate() {\n  local auth=()\n  [[ -n \"${GITHUB_TOKEN}\" ]] && auth=(-H \"Authorization: Bearer ${GITHUB_TOKEN}\")\n\n  local rel tag url toml\n  rel=$(curl -sSf \"${auth[@]}\" -H \"Accept: application/vnd.github+json\" \\\n    \"https://api.github.com/repos/${GITHUB_REPO}/releases/latest\") || { echo \"[updater] could not reach github\"; return 1; }\n\n  tag=$(echo \"${rel}\" | ./jq -r '.tag_name')\n  [[ \"${tag}\" == \"$(cat .current_release 2>/dev/null)\" ]] && return 0\n\n  if [[ -n \"${ASSET_PATTERN}\" ]]; then\n    url=$(echo \"${rel}\" | ./jq -r --arg p \"${ASSET_PATTERN}\" '[.assets[] | select(.name | test($p))][0].browser_download_url // empty')\n  else\n    url=$(echo \"${rel}\" | ./jq -r '.zipball_url // empty')\n  fi\n  [[ -z \"${url}\" ]] && { echo \"[updater] no matching asset in ${tag}\"; return 1; }\n\n  echo \"[updater] new release ${tag}, downloading\"\n  rm -rf .tmp && mkdir .tmp\n  curl -sSfL \"${auth[@]}\" -o .tmp/pack.zip \"${url}\" || { echo \"[updater] download failed\"; rm -rf .tmp; return 1; }\n  ./busybox unzip -q .tmp/pack.zip -d .tmp/x || { echo \"[updater] unzip failed\"; rm -rf .tmp; return 1; }\n\n  toml=$(find .tmp/x -name pack.toml | head -n1)\n  [[ -z \"${toml}\" ]] && { echo \"[updater] no pack.toml found in ${tag}\"; rm -rf .tmp; return 1; }\n\n  # sync contents in place so the running server keeps its working directory\n  find pack -mindepth 1 -delete\n  cp -a \"$(dirname \"${toml}\")/.\" pack/\n  echo \"${tag}\" > .current_release\n  rm -rf .tmp\n  echo \"[updater] now serving ${tag}\"\n}\n\nupdate\nif [[ ! -f pack/pack.toml ]]; then\n  echo \"[updater] no pack available, check GITHUB_REPO and ASSET_PATTERN\"\n  exit 1\nfi\n\n( while true; do sleep \"${INTERVAL}\"; update; done ) &\n\ncd pack\necho \"packwiz serve starting on port ${PORT}\"\nexec ../packwiz serve -p \"${PORT}\"\nRUNEOF\nchmod +x run.sh\necho \"Installation process is completed!\"\n",
+            "container": "ghcr.io/parkervcp/installers:debian",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Asset Pattern",
+            "description": "Regex for the release asset holding the pack files. Leave empty to use the release's source zip.",
+            "env_variable": "ASSET_PATTERN",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "nullable",
+                "string",
+                "max:100"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Check Interval",
+            "description": "Seconds between release checks.",
+            "env_variable": "CHECK_INTERVAL",
+            "default_value": "300",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "integer",
+                "min:60"
+            ],
+            "sort": null
+        },
+        {
+            "name": "GitHub Repo",
+            "description": "Repo to watch for releases, as owner/name.",
+            "env_variable": "GITHUB_REPO",
+            "default_value": "ellitedev/creatine",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "string",
+                "max:100"
+            ],
+            "sort": null
+        },
+        {
+            "name": "GitHub Token",
+            "description": "Optional token for private repos or higher rate limits.",
+            "env_variable": "GITHUB_TOKEN",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "nullable",
+                "string",
+                "max:200"
+            ],
+            "sort": null
+        }
+    ]
+}

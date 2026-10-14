@@ -34,3 +34,6 @@ release.sh
 
 # resource/data packs loaded by Open Loader are part of the pack
 !config/openloader/packs/*.zip
+
+# pelican egg for hosting the packwiz pack
+/pelican

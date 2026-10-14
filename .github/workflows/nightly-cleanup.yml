@@ -1,0 +1,45 @@
+name: Nightly cleanup
+
+# a stable release replaces every nightly before it, so remove them from
+# github (release + tag) and modrinth
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+env:
+  MODRINTH_PROJECT: p9c4pS80
+
+jobs:
+  cleanup:
+    if: ${{ !github.event.release.prerelease }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete GitHub nightlies
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh release list -R "$REPO" --limit 1000 --json tagName \
+            -q '.[].tagName | select(test("-nightly"))' \
+          | while read -r tag; do
+              echo "deleting $tag"
+              gh release delete "$tag" -R "$REPO" --cleanup-tag -y
+            done
+
+      - name: Delete Modrinth nightlies
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          ua="${{ github.repository }} nightly-cleanup"
+          curl -fsS -H "Authorization: $MODRINTH_TOKEN" -H "User-Agent: $ua" \
+            "https://api.modrinth.com/v2/project/${MODRINTH_PROJECT}/version" \
+          | jq -r '.[] | select(.version_number | test("-nightly")) | "\(.id) \(.version_number)"' \
+          | while read -r id num; do
+              echo "deleting $num ($id)"
+              curl -fsS -X DELETE -H "Authorization: $MODRINTH_TOKEN" -H "User-Agent: $ua" \
+                "https://api.modrinth.com/v2/version/${id}"
+            done
