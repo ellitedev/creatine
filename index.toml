@@ -129,28 +129,34 @@ file = "config/openloader/packs/CosmonauticsOverworldStutterFix.zip"
 hash = "4e7b61685db3dde78142af309a4a7b6ed1ff4f9a4c67d29d0e683a5a7dd39999"
 
 [[files]]
-file = "config/openloader/packs/CreateSophBackpacks.zip"
-hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
+file = "config/openloader/packs/create-sophisticated-backpacks.pw.toml"
+hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
+metafile = true
 
 [[files]]
-file = "config/openloader/packs/CreateSophStorage.zip"
-hash = "2920d92df7a14d5ff3fcc5b73c6f384d1586096bf86f9a38bfb3b7d33ecf53e1"
+file = "config/openloader/packs/create-sophisticated-storages.pw.toml"
+hash = "4e069051ed9caad9723d82fac4c7dd195bf7ba313e3d34108a8ca6519ab889b0"
+metafile = true
 
 [[files]]
-file = "config/openloader/packs/RAYs_3D_Ladders_v2.4.zip"
-hash = "ecf435029820168d8df9f4eb8d3f63e35263be8ce06c4c1e69ded52cc6cf52ca"
+file = "config/openloader/packs/rays-3d-ladders.pw.toml"
+hash = "e6669c7db8764e4fbf205202829baa10e1d68168ca63f9c290bf87a631fe7173"
+metafile = true
 
 [[files]]
-file = "config/openloader/packs/RAYs_3D_Rails_v3.6.zip"
-hash = "8d98e6cf93d6baa5b4ec14443a399872a03b7cb3adc1c5ee703cd1ac3a72f44c"
+file = "config/openloader/packs/rays-3d-rails.pw.toml"
+hash = "14f7f4a5fe0fe7862bb218312e8ae191980ebe7b9846b15a60c1ce31eb624521"
+metafile = true
 
 [[files]]
-file = "config/openloader/packs/Simple Create Radios V2.01.zip"
-hash = "febf1c997be22dbbf52f5f9b47fadf1ed1e2646056dbbdcc52009680a3fc8452"
+file = "config/openloader/packs/simple-create-radios.pw.toml"
+hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
+metafile = true
 
 [[files]]
-file = "config/openloader/packs/§a§lVocal Villagers §r§71.4.zip"
-hash = "3e26f37ede8f26972a95fcf4dd947174fe6be46df2cde70176504a8329e5d20b"
+file = "config/openloader/packs/vvi.pw.toml"
+hash = "505bfa31b0681a86c369fbf7fdbfc5bd2841f06895a2711327ff42615d5b909b"
+metafile = true
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
