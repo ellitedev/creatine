@@ -41,6 +41,8 @@ jobs:
           EVENT: ${{ github.event_name }}
           SCHEDULE: ${{ github.event.schedule }}
           FORCE: ${{ inputs.force }}
+          GH_TOKEN: ${{ github.token }}
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
         run: |
           if [[ "$EVENT" == "schedule" ]]; then
             offset=$(TZ=Europe/Amsterdam date +%z)
@@ -80,12 +82,21 @@ jobs:
           echo "$relevant"
 
           ver="${stable#v}.${date}-nightly"
-          # a second build on the same day (manual run) gets a counter
-          n=1
-          while git rev-parse -q --verify "refs/tags/v${ver}$([[ $n -gt 1 ]] && echo ".$n")" >/dev/null; do
+          # if the name is taken (forced rerun, or a half finished earlier run)
+          # append .1, .2, ... until it's free on git, github and modrinth
+          taken=$( {
+            git tag -l
+            gh release list --limit 1000 --json tagName -q '.[].tagName'
+            curl -fsS -H "Authorization: $MODRINTH_TOKEN" -H "User-Agent: ${{ github.repository }} nightly" \
+              "https://api.modrinth.com/v2/project/${MODRINTH_PROJECT}/version" \
+              | jq -r '.[].version_number | "v" + .'
+          } | sort -u )
+          base="$ver"
+          n=0
+          while grep -qxF "v${ver}" <<< "$taken"; do
             n=$((n + 1))
+            ver="${base}.${n}"
           done
-          [[ $n -gt 1 ]] && ver="${ver}.$n"
 
           echo "version: $ver"
           {
