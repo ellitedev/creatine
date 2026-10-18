@@ -20,7 +20,7 @@ Make sure to replace `/path/on/host` with an actual path on your system. `24454`
 docker run -d -it --pull=always \
     -v /path/on/host:/data -e TYPE=NEOFORGE \
     -e VERSION=1.21.1 \
-    -e NEOFORGE_VERSION=21.1.252 \
+    -e NEOFORGE_VERSION=21.1.262 \
     -e "PACKWIZ_URL=https://creatinepack.girlfag.club/pack.toml" \
     -e EULA=TRUE \
     -e MEMORY=8G \
